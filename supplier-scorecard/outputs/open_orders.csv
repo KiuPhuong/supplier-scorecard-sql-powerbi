@@ -1,0 +1,9 @@
+﻿po_id,supplier_id,supplier_name,order_date,promised_date,qty_ordered,order_value_vnd,supplier_tier,supplier_on_time_pct,status,days_overdue
+PO00965,NCC28,Công ty Sài Gòn Food,2026-11-09,2026-11-16,1500,18000000,C - Rủi ro cao,52.0,Trong hạn - nguy cơ cao,0
+PO00190,NCC06,Công ty Hoàng Gia,2026-11-10,2026-11-17,1500,37500000,A - Tốt,92.9,Trong hạn,0
+PO00630,NCC19,Công ty Trường An,2026-11-11,2026-11-18,200,2400000,B - Cần theo dõi,71.0,Trong hạn,0
+PO00543,NCC16,Công ty Thành Công,2026-11-12,2026-11-17,800,32000000,B - Cần theo dõi,71.0,Trong hạn,0
+PO00972,NCC28,Công ty Sài Gòn Food,2026-11-12,2026-11-19,800,9600000,C - Rủi ro cao,52.0,Trong hạn - nguy cơ cao,0
+PO00076,NCC03,Công ty Cửu Long,2026-11-12,2026-11-16,300,5400000,A - Tốt,92.1,Trong hạn,0
+PO00071,NCC03,Công ty Cửu Long,2026-11-13,2026-11-17,200,3600000,A - Tốt,92.1,Trong hạn,0
+PO01010,NCC29,Công ty Tây Nam,2026-11-13,2026-11-16,200,2400000,A - Tốt,97.3,Trong hạn,0
