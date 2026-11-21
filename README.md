@@ -1,6 +1,6 @@
 # Supplier Scorecard: SQL + Power BI
 
-Dashboard Power BI chấm điểm và theo dõi hiệu suất **30 nhà cung cấp (NCC)** theo OTIF, tỷ lệ giao đúng hạn và lead time. Số liệu được tính sẵn bằng SQL trong thư mục [`supplier-scorecard/`](supplier-scorecard/), sau đó đưa vào Power BI để trực quan hóa.
+Dashboard Power BI chấm điểm và theo dõi hiệu suất 30 nhà cung cấp (NCC) theo OTIF, tỷ lệ giao đúng hạn và lead time. Số liệu được tính sẵn bằng SQL trong thư mục [`supplier-scorecard/`](supplier-scorecard/), sau đó đưa vào Power BI để trực quan hóa.
 
 > Dữ liệu là giả lập (1.047 đơn đặt hàng, 6 nhóm hàng FMCG, 01/2026 đến 11/2026).
 
@@ -25,7 +25,7 @@ Thư mục `supplier-scorecard/` chứa 4 file SQL, dữ liệu mẫu và script
 
 ## Dashboard Power BI
 
-Dashboard một trang (1920×1080) trả lời 3 câu hỏi: **NCC nào kéo hiệu suất xuống, đơn trễ tập trung ở đâu, và đơn nào đang chờ cần xử lý ngay.**
+Dashboard một trang (1920×1080) trả lời 3 câu hỏi: NCC nào kéo hiệu suất xuống, đơn trễ tập trung ở đâu, và đơn nào đang chờ cần xử lý ngay.
 
 <img width="860" height="482" alt="Screenshot 2026-11-21 163331" src="https://github.com/user-attachments/assets/609b2b75-a652-455e-b7e6-c8e4b17a1a55" />
 
@@ -43,11 +43,11 @@ Dashboard một trang (1920×1080) trả lời 3 câu hỏi: **NCC nào kéo hi�
 
 ### Cách đọc
 
-1. Xem **4 thẻ KPI** để biết mức OTIF và tỷ lệ đúng hạn chung.
-2. Xem **biểu đồ xếp hạng** để tìm NCC điểm thấp, rồi lọc Hạng = C để tập trung vào nhóm rủi ro cao.
-3. Đối chiếu với **Pareto** để thấy nhóm này chiếm bao nhiêu % đơn trễ.
-4. Xem **xu hướng theo tháng** (tháng 11 chưa đầy đủ vì các đơn trễ chưa về).
-5. Cuối cùng xem **bảng đơn đang chờ**, ưu tiên các dòng tô cam.
+1. Xem 4 thẻ KPI để biết mức OTIF và tỷ lệ đúng hạn chung.
+2. Xem biểu đồ xếp hạng để tìm NCC điểm thấp, rồi lọc Hạng = C để tập trung vào nhóm rủi ro cao.
+3. Đối chiếu với Pareto để thấy nhóm này chiếm bao nhiêu % đơn trễ.
+4. Xem xu hướng theo tháng (tháng 11 chưa đầy đủ vì các đơn trễ chưa về).
+5. Cuối cùng xem bảng đơn đang chờ, ưu tiên các dòng tô cam.
 
 ### Mô hình dữ liệu
 
@@ -66,7 +66,7 @@ Dashboard một trang (1920×1080) trả lời 3 câu hỏi: **NCC nào kéo hi�
    ```bash
    python run_sql.py
    ```
-3. Mở `supplier-scorecard-powerbi.pbix` bằng Power BI Desktop. Nếu báo lỗi nguồn dữ liệu, vào **Transform data → Data source settings**, trỏ lại tới thư mục `supplier-scorecard/outputs/` rồi chọn **Refresh**.
+3. Mở `supplier-scorecard-powerbi.pbix` bằng Power BI Desktop. Nếu báo lỗi nguồn dữ liệu, vào Transform data → Data source settings, trỏ lại tới thư mục `supplier-scorecard/outputs/` rồi chọn Refresh.
 
 ## Công nghệ
 
