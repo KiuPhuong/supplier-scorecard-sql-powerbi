@@ -27,7 +27,7 @@ Lưu ý khi đọc: số liệu tháng 11 chưa đầy đủ (mới 41 đơn v�
 
 ## Cách tính (4 file SQL, chạy theo thứ tự)
 
-| File | Làm gì |
+| File | Mục tiêu |
 |---|---|
 | `01_schema.sql` | Tạo 2 bảng: `suppliers`, `purchase_orders` |
 | `02_po_view.sql` | Với mỗi đơn đã về, tính 3 cờ 0/1: đúng hạn, đủ hàng (nhận >= 95% số đặt), OTIF (cả hai), cùng số ngày trễ và lead time |
