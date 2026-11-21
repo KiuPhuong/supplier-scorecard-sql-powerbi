@@ -21,7 +21,7 @@
 1. **6 nhà cung cấp hạng C (20% tổng số) gây ra 56% số đơn trễ** (102/182) và **72% giá trị hàng giao thiếu** (478 / 664 triệu đồng).
 2. Muốn đạt mức phục vụ 95%, nhà cung cấp hạng C cần hàng an toàn gấp khoảng 4 lần hạng A, vì lead time dao động mạnh (độ lệch chuẩn 2-3 ngày so với dưới 1 ngày).
 3. Trong 8 đơn đang chờ, 2 đơn (27,6 triệu đồng) thuộc nhà cung cấp hạng C (NCC28), nên cần gọi hỏi tiến độ trước.
-4. Đây không phải "80/20" kinh điển: 6 nhà cung cấp mới chiếm 56% đơn trễ, phải 8 nhà cung cấp mới chạm 2/3. Kết luận đúng là *tập trung vào nhóm nhỏ này mang lại hiệu quả lớn nhất*, không cần nói quá.
+4. Đây không phải "80/20" kinh điển: 6 nhà cung cấp mới chiếm 56% đơn trễ, phải 8 nhà cung cấp mới chạm 2/3. Kết luận đúng là *tập trung vào nhóm nhỏ này mang lại hiệu quả lớn nhất*.
 
 Lưu ý khi đọc: số liệu tháng 11 chưa đầy đủ (mới 41 đơn về, các đơn trễ chưa về nên chưa được tính). Chênh lệch giữa các nhóm hàng trong dữ liệu mẫu (ví dụ Bánh kẹo OTIF 62,9%, Gia vị 92,2%) phản ánh nhà cung cấp nào được gán vào nhóm nào trong dữ liệu giả lập, không nên kết luận về ngành.
 
