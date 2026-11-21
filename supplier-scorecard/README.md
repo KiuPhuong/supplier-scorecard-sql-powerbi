@@ -10,7 +10,7 @@
 |---|---|
 | Đơn đã về | 1.039 (8 đơn còn đang chờ) |
 | Đơn giao đúng hạn | 82,5% (182 đơn trễ) |
-| OTIF (đúng hạn **và** đủ hàng) | 74,9% |
+| OTIF (đúng hạn và đủ hàng) | 74,9% |
 
 | Hạng | Số NCC | Đúng hạn | OTIF | Hàng an toàn trung bình |
 |---|---|---|---|---|
