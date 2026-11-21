@@ -34,7 +34,7 @@ Lưu ý khi đọc: số liệu tháng 11 chưa đầy đủ (mới 41 đơn v�
 | `03_scorecard.sql` | Gom theo nhà cung cấp, tính điểm 0-100 và hàng an toàn |
 | `04_insights.sql` | Xếp hạng A/B/C, Pareto đơn trễ, xu hướng tháng, theo nhóm hàng, đơn đang chờ |
 
-**Điểm = 50% OTIF + 30% fill rate + 20% độ ổn định lead time.** Trọng số là giả định của mình (OTIF quan trọng nhất vì phản ánh trực tiếp việc hàng có về đúng và đủ), có thể chỉnh trong `03_scorecard.sql`.
+**Điểm = 50% OTIF + 30% fill rate + 20% độ ổn định lead time.** Trọng số là giả định (OTIF quan trọng nhất vì phản ánh trực tiếp việc hàng có về đúng và đủ), có thể chỉnh trong `03_scorecard.sql`.
 
 **Hàng an toàn = 1,65 x độ lệch chuẩn lead time x nhu cầu mỗi ngày** (1,65 tương ứng mức phục vụ 95%). Cột `extra_stock_if_3d_delay` trả lời câu hỏi "nếu nhà cung cấp trễ thêm 3 ngày thì cần thêm bao nhiêu hàng".
 
